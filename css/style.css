@@ -44,3 +44,11 @@ body{
   background-color: #fff;
   color: #000;
 }
+
+.texto{
+  transition: all 1s;
+}
+
+.banda:hover .texto{
+  transform: rotate(360deg);
+}
