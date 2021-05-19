@@ -11,6 +11,22 @@ body{
   height: 100vh;
 }
 
+section:first-child{
+  background-color: #00ffff;
+}
+section:nth-child(2){
+  background-color: #00dddd;
+}
+section:nth-child(3){
+  background-color: #00bbbb;
+}
+section:nth-child(4){
+  background-color: #009999;
+}
+section:nth-child(5){
+  background-color: #007777;
+}
+
 .banda{
   flex: 1;
 
