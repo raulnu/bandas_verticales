@@ -32,4 +32,15 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s;
+}
+
+.banda:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.banda:hover+.banda{
+  background-color: #fff;
+  color: #000;
 }
