@@ -9,6 +9,7 @@ body{
 .contenedor-general{
   display: flex;
   height: 100vh;
+  background-image: url("https://www.teknofilo.com/wp-content/uploads/2020/04/Perro-y-gato-1280x817.jpg");
 }
 
 .banda:first-child{
@@ -38,6 +39,7 @@ body{
 .banda:hover{
   background-color: #000;
   color: #fff;
+  transform: translateY(-100vh);
 }
 
 .banda:hover+.banda{
